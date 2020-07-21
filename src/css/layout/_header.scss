@@ -1,0 +1,36 @@
+
+
+nav { display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+
+    
+.burger-menu { display: none;}
+
+    @media screen and ( max-width: 375px ) { 
+
+
+.navigation  { display: none; }
+.burger-menu { display: block;
+                color: white;
+}
+        
+    } 
+
+    
+    
+    a { font-family: 'Libre Franklin', sans-serif;
+        font-size: 16px;
+        padding-left: 35px;
+        color: white;
+        &:first-child, &:nth-child(3) { padding-left: 0;}
+        &:hover , &:active { color: #E32879;}
+        // &:visited { &:hover{ color: white} color: green;}
+        &.active { color: #E32879;}
+    } 
+}
+
+header { padding: 25px 0;}
+
+

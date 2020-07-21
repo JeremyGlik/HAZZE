@@ -1,0 +1,88 @@
+footer { 
+    display: flex;
+
+    justify-content: space-between;
+    font-size: 16px;
+    color: #b3b3b3;
+    line-height: 30px;
+    
+    @media screen and ( max-width: 375px ) { 
+flex-direction: column;          
+          
+    
+}
+    img { margin-bottom:  20px;}
+    
+    a { 
+        
+        line-height: 30px;
+        color: $grisclair;
+        &:hover { color: $pink; }
+    }
+    
+    .rs a { 
+        
+        color: #191919;
+        &:hover { color: white;}
+        margin-right: 15px;
+        margin-top: 20px;
+        width: 40px;
+        height:40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $grisclair;
+        &:hover { background-color: $pink ;}
+        border-radius: 50%;
+        
+    }
+    
+    h6 { 
+        
+        text-transform: inherit;
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 700;
+
+        @media screen and ( max-width: 375px ) { 
+margin-top: 30px;
+    
+    
+              
+              
+              } 
+        
+    }
+    
+    .newsletter { 
+        
+        width: 294px;
+        
+    }
+    
+    input { 
+        
+        background-color: #191919;
+        color: white;
+        height: 40px;
+        border: $grisclair 1px solid;
+        margin-top: 26px;
+        margin-bottom: 15px;
+    }
+    
+    .button { border-radius: 0px;
+        
+        text-align: center;
+    }
+    
+    .insta-gallery div { 
+        
+        width: 260px;
+        display: flex;
+        flex-wrap: wrap;
+        
+        img { margin: 0 5px 5px 0 }
+    }}
+    
+    
+    
